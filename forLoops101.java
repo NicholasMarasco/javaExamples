@@ -1,10 +1,11 @@
 public class forLoops101{
   public static void main(String[] args){
-    int i = 0;
+    I i = new I();
+    i.initializeToBeZero();
     for(;true;)
-    { 
-      i++;
-      if( i == 5 )
+    { System.out.println(i);
+      i = i.pp();
+      if(Five.checkifequaltofive(i))
       {break;}
       continue;
     }
