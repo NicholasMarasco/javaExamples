@@ -56,8 +56,13 @@ public final class I extends Number implements Comparable<I>{
   {return "" + this.intValue();}
 
   private void makeValueThisNumber(int u)
-  {this.setValue(u);}
+  { this.setValue(u);
+    return;
+  }
 
   private void setValue(int u)
-  {this.field = new Integer(u);}
+  {
+    this.field = new Integer(u);
+    return;
+  }
 }
